@@ -11,10 +11,13 @@ AI engineer working on agentic systems, retrieval and LLM applications for healt
 
 <!-- oss-contributions:start -->
 
-7 merged, 15 in review across 12 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
+10 merged, 19 in review across 16 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
 
 | Project | PR | What I fixed |
 |---|---|---|
+| [reflex-dev/reflex](https://github.com/reflex-dev/reflex) | [#7866](https://github.com/reflex-dev/reflex/pull/7866) | Split strings by Unicode code points when the separator is empty, including runtime separators. |
+| [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | [#5880](https://github.com/embeddings-benchmark/mteb/pull/5880) | Returned an empty `ModelResult` with the model name and revision, without loading the model. |
+| [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | [#5879](https://github.com/embeddings-benchmark/mteb/pull/5879) | Filtered cached and merged results to the task's splits and subsets after saving, leaving the cache file intact. |
 | [docling-project/docling](https://github.com/docling-project/docling) | [#5244](https://github.com/docling-project/docling/pull/5244) | Joined the section label and title into one heading, e.g. `## 1. Introduction`. |
 | [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | [#5870](https://github.com/embeddings-benchmark/mteb/pull/5870) | Added euclidean and manhattan support to `AbsEncoder` and a memory-bounded chunked `manhattan_sim`. |
 | [docling-project/docling](https://github.com/docling-project/docling) | [#5283](https://github.com/docling-project/docling/pull/5283) | Added `<preformat>` and `<code>` blocks as code items, keeping line breaks and the code language. |
