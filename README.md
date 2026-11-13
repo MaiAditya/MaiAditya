@@ -11,10 +11,11 @@ AI engineer working on agentic systems, retrieval and LLM applications for healt
 
 <!-- oss-contributions:start -->
 
-12 merged, 22 in review across 17 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
+13 merged, 25 in review across 18 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
 
 | Project | PR | What I fixed |
 |---|---|---|
+| [neuml/txtai](https://github.com/neuml/txtai) | [#1561](https://github.com/neuml/txtai/pull/1561) | Routed a `[` after an operator to `bracket()` in `compound()` so these expressions translate correctly. |
 | [reflex-dev/reflex](https://github.com/reflex-dev/reflex) | [#7866](https://github.com/reflex-dev/reflex/pull/7866) | Split strings by Unicode code points when the separator is empty, including runtime separators. |
 | [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | [#5880](https://github.com/embeddings-benchmark/mteb/pull/5880) | Returned an empty `ModelResult` with the model name and revision, without loading the model. |
 | [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | [#5879](https://github.com/embeddings-benchmark/mteb/pull/5879) | Filtered cached and merged results to the task's splits and subsets after saving, leaving the cache file intact. |
