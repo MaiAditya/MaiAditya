@@ -11,7 +11,7 @@ AI engineer working on agentic systems, retrieval and LLM applications for healt
 
 <!-- oss-contributions:start -->
 
-10 merged, 19 in review across 16 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
+12 merged, 17 in review across 16 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
 
 | Project | PR | What I fixed |
 |---|---|---|
@@ -19,6 +19,8 @@ AI engineer working on agentic systems, retrieval and LLM applications for healt
 | [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | [#5880](https://github.com/embeddings-benchmark/mteb/pull/5880) | Returned an empty `ModelResult` with the model name and revision, without loading the model. |
 | [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | [#5879](https://github.com/embeddings-benchmark/mteb/pull/5879) | Filtered cached and merged results to the task's splits and subsets after saving, leaving the cache file intact. |
 | [docling-project/docling](https://github.com/docling-project/docling) | [#5244](https://github.com/docling-project/docling/pull/5244) | Joined the section label and title into one heading, e.g. `## 1. Introduction`. |
+| [neuml/txtai](https://github.com/neuml/txtai) | [#1550](https://github.com/neuml/txtai/pull/1550) | Counted nested parentheses in function arguments so each function ends at its own closing paren. |
+| [neuml/txtai](https://github.com/neuml/txtai) | [#1535](https://github.com/neuml/txtai/pull/1535) | Split signs from operators when tokenizing SQL. |
 | [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | [#5870](https://github.com/embeddings-benchmark/mteb/pull/5870) | Added euclidean and manhattan support to `AbsEncoder` and a memory-bounded chunked `manhattan_sim`. |
 | [docling-project/docling](https://github.com/docling-project/docling) | [#5283](https://github.com/docling-project/docling/pull/5283) | Added `<preformat>` and `<code>` blocks as code items, keeping line breaks and the code language. |
 | [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | [#5864](https://github.com/embeddings-benchmark/mteb/pull/5864) | Delegated pairwise similarity to the sentence-transformers model's own `similarity_pairwise`. |
