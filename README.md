@@ -11,10 +11,11 @@ AI engineer working on agentic systems, retrieval and LLM applications for healt
 
 <!-- oss-contributions:start -->
 
-13 merged, 25 in review across 18 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
+14 merged, 27 in review across 19 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
 
 | Project | PR | What I fixed |
 |---|---|---|
+| [huggingface/peft](https://github.com/huggingface/peft) | [#4157](https://github.com/huggingface/peft/pull/4157) | Fixed BOFT kernel shapes and made OFT Conv2d rotate the weight in forward, matching its merged output. |
 | [neuml/txtai](https://github.com/neuml/txtai) | [#1561](https://github.com/neuml/txtai/pull/1561) | Routed a `[` after an operator to `bracket()` in `compound()` so these expressions translate correctly. |
 | [reflex-dev/reflex](https://github.com/reflex-dev/reflex) | [#7866](https://github.com/reflex-dev/reflex/pull/7866) | Split strings by Unicode code points when the separator is empty, including runtime separators. |
 | [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | [#5880](https://github.com/embeddings-benchmark/mteb/pull/5880) | Returned an empty `ModelResult` with the model name and revision, without loading the model. |
