@@ -11,13 +11,16 @@ AI engineer working on agentic systems, retrieval and LLM applications for healt
 
 <!-- oss-contributions:start -->
 
-21 merged, 32 in review across 22 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
+24 merged, 29 in review across 22 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
 
 | Project | PR | What I fixed |
 |---|---|---|
 | [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | [#5906](https://github.com/embeddings-benchmark/mteb/pull/5906) | Added an `evaluated_splits` argument to `save_to_cache` so only subsets that were actually run get run settings. |
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) | [#4397](https://github.com/huggingface/sentence-transformers/pull/4397) | Resolved the default similarity function names on each call and rebuilt the CSV headers when they changed. |
 | [neuml/txtai](https://github.com/neuml/txtai) | [#1592](https://github.com/neuml/txtai/pull/1592) | Pinned `llama-cpp-python==0.3.36` in the Windows dependency step of the build workflow. |
+| [neuml/txtai](https://github.com/neuml/txtai) | [#1579](https://github.com/neuml/txtai/pull/1579) | Added `Cluster.limit` to slice merged results by the query's `LIMIT`, falling back to the request limit. |
+| [neuml/txtai](https://github.com/neuml/txtai) | [#1577](https://github.com/neuml/txtai/pull/1577) | Added `Indexes.implements` and checked subindex ANNs up front so these calls raise `NotImplementedError` first. |
+| [neuml/txtai](https://github.com/neuml/txtai) | [#1571](https://github.com/neuml/txtai/pull/1571) | Added `case` keywords as conditionals and stopped treating the token after `and`/`or` as an alias. |
 | [neuml/txtai](https://github.com/neuml/txtai) | [#1569](https://github.com/neuml/txtai/pull/1569) | Moved `null` from `Token.OPERATORS` to the literals, next to `true` and `false`. |
 | [PostHog/posthog-python](https://github.com/PostHog/posthog-python) | [#1267](https://github.com/PostHog/posthog-python/pull/1267) | Marked the resolved `exc_info` as captured and skipped already-marked ones in `Client` and `AsyncClient`. |
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) | [#4383](https://github.com/huggingface/sentence-transformers/pull/4383) | Added the main similarity to the STS and triplet evaluators, and made IR evaluators raise a `ValueError` at construction. |
