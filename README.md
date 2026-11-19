@@ -11,10 +11,11 @@ AI engineer working on agentic systems, retrieval and LLM applications for healt
 
 <!-- oss-contributions:start -->
 
-26 merged, 30 in review across 21 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
+27 merged, 29 in review across 21 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
 
 | Project | PR | What I fixed |
 |---|---|---|
+| [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) | [#4354](https://github.com/huggingface/sentence-transformers/pull/4354) | Used the untruncated embedding dimension in `MatryoshkaLoss` and `EmbedDistillLoss`. |
 | [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | [#5929](https://github.com/embeddings-benchmark/mteb/pull/5929) | Materialized `models` and `tasks` into lists once at entry so iterators and empty inputs work. |
 | [PostHog/posthog-python](https://github.com/PostHog/posthog-python) | [#1277](https://github.com/PostHog/posthog-python/pull/1277) | Matched the project root on directory boundaries: the path equals the root or starts with the root plus `os.sep`. |
 | [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | [#5906](https://github.com/embeddings-benchmark/mteb/pull/5906) | Added an `evaluated_splits` argument to `save_to_cache` so only subsets that were actually run get run settings. |
