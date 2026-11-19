@@ -11,10 +11,12 @@ AI engineer working on agentic systems, retrieval and LLM applications for healt
 
 <!-- oss-contributions:start -->
 
-24 merged, 29 in review across 22 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
+26 merged, 30 in review across 21 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
 
 | Project | PR | What I fixed |
 |---|---|---|
+| [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | [#5929](https://github.com/embeddings-benchmark/mteb/pull/5929) | Materialized `models` and `tasks` into lists once at entry so iterators and empty inputs work. |
+| [PostHog/posthog-python](https://github.com/PostHog/posthog-python) | [#1277](https://github.com/PostHog/posthog-python/pull/1277) | Matched the project root on directory boundaries: the path equals the root or starts with the root plus `os.sep`. |
 | [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | [#5906](https://github.com/embeddings-benchmark/mteb/pull/5906) | Added an `evaluated_splits` argument to `save_to_cache` so only subsets that were actually run get run settings. |
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) | [#4397](https://github.com/huggingface/sentence-transformers/pull/4397) | Resolved the default similarity function names on each call and rebuilt the CSV headers when they changed. |
 | [neuml/txtai](https://github.com/neuml/txtai) | [#1592](https://github.com/neuml/txtai/pull/1592) | Pinned `llama-cpp-python==0.3.36` in the Windows dependency step of the build workflow. |
