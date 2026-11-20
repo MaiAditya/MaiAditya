@@ -11,11 +11,12 @@ AI engineer working on agentic systems, retrieval and LLM applications for healt
 
 <!-- oss-contributions:start -->
 
-31 merged, 40 in review across 33 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
+32 merged, 41 in review across 33 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
 
 | Project | PR | What I fixed |
 |---|---|---|
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | [#9595](https://github.com/crewAIInc/crewAI/pull/9595) | Opted `SaveArtifactTool` out of caching with `_never_cache_function`, so each call saves a new version. |
+| [reflex-dev/reflex](https://github.com/reflex-dev/reflex) | [#7880](https://github.com/reflex-dev/reflex/pull/7880) | Added `_forwarded_client_ip()` to strip ports and brackets, normalise addresses and fall back to the peer address if invalid. |
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) | [#4410](https://github.com/huggingface/sentence-transformers/pull/4410) | Replaced constructor `assert`s with `ValueError`s for empty input, length mismatch and non-0/1 binary labels. |
 | [Arize-ai/openinference](https://github.com/Arize-ai/openinference) | [#4367](https://github.com/Arize-ai/openinference/pull/4367) | Recorded `cached_tokens` and `reasoning_tokens` as span attributes, matching the groq instrumentor. |
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) | [#4354](https://github.com/huggingface/sentence-transformers/pull/4354) | Used the untruncated embedding dimension in `MatryoshkaLoss` and `EmbedDistillLoss`. |
