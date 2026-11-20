@@ -11,10 +11,11 @@ AI engineer working on agentic systems, retrieval and LLM applications for healt
 
 <!-- oss-contributions:start -->
 
-29 merged, 40 in review across 31 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
+30 merged, 39 in review across 31 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
 
 | Project | PR | What I fixed |
 |---|---|---|
+| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | [#9595](https://github.com/crewAIInc/crewAI/pull/9595) | Opted `SaveArtifactTool` out of caching with `_never_cache_function`, so each call saves a new version. |
 | [Arize-ai/openinference](https://github.com/Arize-ai/openinference) | [#4367](https://github.com/Arize-ai/openinference/pull/4367) | Recorded `cached_tokens` and `reasoning_tokens` as span attributes, matching the groq instrumentor. |
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) | [#4354](https://github.com/huggingface/sentence-transformers/pull/4354) | Used the untruncated embedding dimension in `MatryoshkaLoss` and `EmbedDistillLoss`. |
 | [neuml/txtai](https://github.com/neuml/txtai) | [#1602](https://github.com/neuml/txtai/pull/1602) | Returned an empty result per query in the Faiss ANN backend's `search` when the limit is 0, and added dense and hybrid tests. |
