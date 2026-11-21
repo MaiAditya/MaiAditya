@@ -11,10 +11,11 @@ AI engineer working on agentic systems, retrieval and LLM applications for healt
 
 <!-- oss-contributions:start -->
 
-35 merged, 44 in review across 34 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
+36 merged, 43 in review across 34 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
 
 | Project | PR | What I fixed |
 |---|---|---|
+| [medplum/medplum](https://github.com/medplum/medplum) | [#11539](https://github.com/medplum/medplum/pull/11539) | Mapped Act status through `PROCEDURE_STATUS_MAPPER` and mapped `active` to `in-progress`, with tests. |
 | [neuml/txtai](https://github.com/neuml/txtai) | [#1624](https://github.com/neuml/txtai/pull/1624) | Set the configured `name` and `description` on tools built by `smolagents.tool`, keeping the function values if unset. |
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | [#9595](https://github.com/crewAIInc/crewAI/pull/9595) | Opted `SaveArtifactTool` out of caching with `_never_cache_function`, so each call saves a new version. |
 | [reflex-dev/reflex](https://github.com/reflex-dev/reflex) | [#7880](https://github.com/reflex-dev/reflex/pull/7880) | Added `_forwarded_client_ip()` to strip ports and brackets, normalise addresses and fall back to the peer address if invalid. |
