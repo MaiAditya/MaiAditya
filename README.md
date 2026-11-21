@@ -11,7 +11,7 @@ AI engineer working on agentic systems, retrieval and LLM applications for healt
 
 <!-- oss-contributions:start -->
 
-36 merged, 45 in review across 35 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
+36 merged, 46 in review across 36 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
 
 | Project | PR | What I fixed |
 |---|---|---|
