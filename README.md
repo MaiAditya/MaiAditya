@@ -11,12 +11,14 @@ AI engineer working on agentic systems, retrieval and LLM applications for healt
 
 <!-- oss-contributions:start -->
 
-33 merged, 45 in review across 33 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
+35 merged, 43 in review across 33 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
 
 | Project | PR | What I fixed |
 |---|---|---|
+| [neuml/txtai](https://github.com/neuml/txtai) | [#1624](https://github.com/neuml/txtai/pull/1624) | Set the configured `name` and `description` on tools built by `smolagents.tool`, keeping the function values if unset. |
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | [#9595](https://github.com/crewAIInc/crewAI/pull/9595) | Opted `SaveArtifactTool` out of caching with `_never_cache_function`, so each call saves a new version. |
 | [reflex-dev/reflex](https://github.com/reflex-dev/reflex) | [#7880](https://github.com/reflex-dev/reflex/pull/7880) | Added `_forwarded_client_ip()` to strip ports and brackets, normalise addresses and fall back to the peer address if invalid. |
+| [Arize-ai/openinference](https://github.com/Arize-ai/openinference) | [#4416](https://github.com/Arize-ai/openinference/pull/4416) | Mapped cached prompt and cache creation tokens to `llm.token_count.prompt_details.cache_read` and `cache_write` when non-zero. |
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) | [#4410](https://github.com/huggingface/sentence-transformers/pull/4410) | Replaced constructor `assert`s with `ValueError`s for empty input, length mismatch and non-0/1 binary labels. |
 | [neuml/txtai](https://github.com/neuml/txtai) | [#1621](https://github.com/neuml/txtai/pull/1621) | Caught the `smolagents` exception in `ToolFactory.createtool` so the docstring fallback runs, and added tests. |
 | [Arize-ai/openinference](https://github.com/Arize-ai/openinference) | [#4367](https://github.com/Arize-ai/openinference/pull/4367) | Recorded `cached_tokens` and `reasoning_tokens` as span attributes, matching the groq instrumentor. |
