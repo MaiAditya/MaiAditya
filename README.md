@@ -11,10 +11,11 @@ AI engineer working on agentic systems, retrieval and LLM applications for healt
 
 <!-- oss-contributions:start -->
 
-36 merged, 46 in review across 36 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
+37 merged, 46 in review across 36 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
 
 | Project | PR | What I fixed |
 |---|---|---|
+| [neuml/txtai](https://github.com/neuml/txtai) | [#1638](https://github.com/neuml/txtai/pull/1638) | Forwarded any parameter that is not `None` in the LLM and RAG routers, so `False` reaches the pipeline. |
 | [medplum/medplum](https://github.com/medplum/medplum) | [#11539](https://github.com/medplum/medplum/pull/11539) | Mapped Act status through `PROCEDURE_STATUS_MAPPER` and mapped `active` to `in-progress`, with tests. |
 | [neuml/txtai](https://github.com/neuml/txtai) | [#1624](https://github.com/neuml/txtai/pull/1624) | Set the configured `name` and `description` on tools built by `smolagents.tool`, keeping the function values if unset. |
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | [#9595](https://github.com/crewAIInc/crewAI/pull/9595) | Opted `SaveArtifactTool` out of caching with `_never_cache_function`, so each call saves a new version. |
