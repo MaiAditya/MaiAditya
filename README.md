@@ -11,11 +11,12 @@ AI engineer working on agentic systems, retrieval and LLM applications for healt
 
 <!-- oss-contributions:start -->
 
-40 merged, 45 in review across 36 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
+41 merged, 45 in review across 35 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
 
 | Project | PR | What I fixed |
 |---|---|---|
 | [comet-ml/opik](https://github.com/comet-ml/opik) | [#9548](https://github.com/comet-ml/opik/pull/9548) | Capped the n-gram order at the shorter text's length so only orders both sides can produce are averaged. |
+| [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) | [#4420](https://github.com/huggingface/sentence-transformers/pull/4420) | Made `prompt` and `task` reserved column names for the CrossEncoder trainer, so such datasets now fail with a clear error. |
 | [neuml/txtai](https://github.com/neuml/txtai) | [#1648](https://github.com/neuml/txtai/pull/1648) | Stopped forwarding `stream` and `maxlength` to `search()` and `workflow()`, and sent streamed string results as one chunk. |
 | [neuml/txtai](https://github.com/neuml/txtai) | [#1640](https://github.com/neuml/txtai/pull/1640) | Added `OpenAI` LLM and vectors providers on the OpenAI client, with LiteLLM still checked first in autodetect. |
 | [neuml/txtai](https://github.com/neuml/txtai) | [#1638](https://github.com/neuml/txtai/pull/1638) | Forwarded any parameter that is not `None` in the LLM and RAG routers, so `False` reaches the pipeline. |
