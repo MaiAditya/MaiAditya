@@ -11,14 +11,16 @@ AI engineer working on agentic systems, retrieval and LLM applications for healt
 
 <!-- oss-contributions:start -->
 
-46 merged, 42 in review across 35 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
+48 merged, 41 in review across 35 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
 
 | Project | PR | What I fixed |
 |---|---|---|
+| [Arize-ai/phoenix](https://github.com/Arize-ai/phoenix) | [#18129](https://github.com/Arize-ai/phoenix/pull/18129) | Passed the messages positionally and read trace dict keys, computing latency from `start_time` and `end_time`. |
 | [huggingface/diffusers](https://github.com/huggingface/diffusers) | [#15307](https://github.com/huggingface/diffusers/pull/15307) | Swapped the halves only in `lora_B` (and the Flux Control `lora_B.bias`) in both converters, with a test for each. |
 | [Arize-ai/openinference](https://github.com/Arize-ai/openinference) | [#4405](https://github.com/Arize-ai/openinference/pull/4405) | Mapped `usage.cached_tokens` to `llm.token_count.prompt_details.cache_read` for chat, chat stream and embed spans. |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [#2965](https://github.com/roboflow/supervision/pull/2965) | Returned the `-1` sentinel for the no-target cases and added a test against pycocotools. |
 | [neuml/txtai](https://github.com/neuml/txtai) | [#1653](https://github.com/neuml/txtai/pull/1653) | Made `cleanthink` also remove text up to a bare closing `</think>` tag, and added a test. |
+| [PostHog/posthog-python](https://github.com/PostHog/posthog-python) | [#1299](https://github.com/PostHog/posthog-python/pull/1299) | Subtracted reasoning from `output_tokens` for Gemini only when the output already includes it. |
 | [comet-ml/opik](https://github.com/comet-ml/opik) | [#9548](https://github.com/comet-ml/opik/pull/9548) | Capped the n-gram order at the shorter text's length so only orders both sides can produce are averaged. |
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) | [#4420](https://github.com/huggingface/sentence-transformers/pull/4420) | Made `prompt` and `task` reserved column names for the CrossEncoder trainer, so such datasets now fail with a clear error. |
 | [PostHog/posthog-python](https://github.com/PostHog/posthog-python) | [#1287](https://github.com/PostHog/posthog-python/pull/1287) | Fell back to `span_data.usage` when the response span has no `Response` object. |
