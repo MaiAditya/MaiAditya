@@ -11,11 +11,12 @@ AI engineer working on agentic systems, retrieval and LLM applications for healt
 
 <!-- oss-contributions:start -->
 
-45 merged, 42 in review across 35 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
+46 merged, 42 in review across 35 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
 
 | Project | PR | What I fixed |
 |---|---|---|
 | [huggingface/diffusers](https://github.com/huggingface/diffusers) | [#15307](https://github.com/huggingface/diffusers/pull/15307) | Swapped the halves only in `lora_B` (and the Flux Control `lora_B.bias`) in both converters, with a test for each. |
+| [Arize-ai/openinference](https://github.com/Arize-ai/openinference) | [#4405](https://github.com/Arize-ai/openinference/pull/4405) | Mapped `usage.cached_tokens` to `llm.token_count.prompt_details.cache_read` for chat, chat stream and embed spans. |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [#2965](https://github.com/roboflow/supervision/pull/2965) | Returned the `-1` sentinel for the no-target cases and added a test against pycocotools. |
 | [neuml/txtai](https://github.com/neuml/txtai) | [#1653](https://github.com/neuml/txtai/pull/1653) | Made `cleanthink` also remove text up to a bare closing `</think>` tag, and added a test. |
 | [comet-ml/opik](https://github.com/comet-ml/opik) | [#9548](https://github.com/comet-ml/opik/pull/9548) | Capped the n-gram order at the shorter text's length so only orders both sides can produce are averaged. |
