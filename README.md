@@ -11,10 +11,15 @@ AI engineer working on agentic systems, retrieval and LLM applications for healt
 
 <!-- oss-contributions:start -->
 
-48 merged, 41 in review across 35 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
+53 merged, 36 in review across 35 repositories. Full log with commits and diffs: [MaiAditya/oss-contributions](https://github.com/MaiAditya/oss-contributions)
 
 | Project | PR | What I fixed |
 |---|---|---|
+| [reflex-dev/reflex](https://github.com/reflex-dev/reflex) | [#7893](https://github.com/reflex-dev/reflex/pull/7893) | Added `EventCallback` overloads to `EventDecorator.__call__` and `EventNamespace.__new__`, and removed the test ignores. |
+| [reflex-dev/reflex](https://github.com/reflex-dev/reflex) | [#7892](https://github.com/reflex-dev/reflex/pull/7892) | Named the trusted `X-Forwarded-Proto` in the warning and added a hint for the scheme mismatch case. |
+| [reflex-dev/reflex](https://github.com/reflex-dev/reflex) | [#7867](https://github.com/reflex-dev/reflex/pull/7867) | Made the deprecation warning name every affected method once. |
+| [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) | [#4431](https://github.com/huggingface/sentence-transformers/pull/4431) | Changed the documented pattern to `sub_modules\.query\.`, updated the docstrings, and added a regression test. |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [#3061](https://github.com/roboflow/supervision/pull/3061) | Made `labels` optional, giving `class_id=None`, and kept `(N, H, W)` masks unsqueezed. |
 | [Arize-ai/phoenix](https://github.com/Arize-ai/phoenix) | [#18129](https://github.com/Arize-ai/phoenix/pull/18129) | Passed the messages positionally and read trace dict keys, computing latency from `start_time` and `end_time`. |
 | [huggingface/diffusers](https://github.com/huggingface/diffusers) | [#15307](https://github.com/huggingface/diffusers/pull/15307) | Swapped the halves only in `lora_B` (and the Flux Control `lora_B.bias`) in both converters, with a test for each. |
 | [Arize-ai/openinference](https://github.com/Arize-ai/openinference) | [#4405](https://github.com/Arize-ai/openinference/pull/4405) | Mapped `usage.cached_tokens` to `llm.token_count.prompt_details.cache_read` for chat, chat stream and embed spans. |
